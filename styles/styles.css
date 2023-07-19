@@ -128,6 +128,35 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 background: #4EC5F7;
 }
 /* banner section ends here */
+/* section-1 starts here */
+.online-game-title{
+    color: #0B0223;
+text-align: center;
+font-size: 3rem;
+font-weight: 700;
+margin-top: 50px;
+padding-bottom: 10px;
+
+}
+.online-g-title-style{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.online-game-des{
+    color: #534C64;
+text-align: center;
+}
+.online-games-container{
+    max-width: 1140px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+.online-games-container img{
+    width: 100%;
+}
 
 
 
@@ -144,7 +173,7 @@ background: #4EC5F7;
 /* responsive section for mobile device */
 
 @media screen and (max-width:576px) {
-    .nav-logo,.nav-container,.nav-items ul{
+    .nav-logo,.nav-container,.nav-items ul,.online-games-container{
         flex-direction: column;
     }
     .banner-container{
@@ -162,6 +191,9 @@ background: #4EC5F7;
     }
     .banner-container{
         flex-direction: column-reverse;
+    }
+    .online-games-container{
+        flex-direction: column;
     }
     
 }
