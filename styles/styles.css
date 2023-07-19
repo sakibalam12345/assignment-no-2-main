@@ -50,6 +50,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     color: #3C354F;
 font-weight: 400;
 align-items: center;
+cursor: pointer;
 
 }
 .nav-title-style{
@@ -119,6 +120,7 @@ padding: 12px 25px;
 border-radius: 20px;
 border: 0;
 background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+cursor: pointer;
 }
 .banner-btn-right{
     margin-top: 25px;
@@ -126,6 +128,7 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     border-radius: 20px;
     border: 0;
 background: #4EC5F7;
+cursor: pointer;
 }
 /* banner section ends here */
 /* section-1/online games starts here */
@@ -220,6 +223,87 @@ background: #FFF;
 color: rgb(239, 64, 64);
 cursor: pointer;
 }
+/* section-3/arcade game section ends here */
+/* footer section starts */
+footer{
+    margin-top: 100px;
+    padding: 50px 0;
+    background: black;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+}
+.footer-logo{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.footer-logo img{
+    width: 80px;
+    height: 40px;
+}
+.footer-logo-title{
+    color: #FFF;
+font-size: 2.8rem;
+font-weight: 700;
+}
+.footer-text-des{
+    color: white;
+    padding-bottom: 25px;
+   
+}
+.footer-text-des li{
+    list-style: none;
+}
+.footer-text-des ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    cursor: pointer;
+}
+.footer-icon li{
+    list-style: none;
+    color: #FFF;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.footer-icon ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    cursor: pointer;
+    padding-bottom: 45px;
+}
+.footer-des-2{
+    color: rgba(255, 255, 255, 0.60);
+   
+}
+.footer-des-2 li{
+    list-style: none;
+}
+.footer-des-2 ul{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    cursor: pointer;
+}
+.footer-para{
+color: rgba(255, 255, 255, 0.60);
+text-align: center;
+padding-top: 20px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -254,6 +338,7 @@ cursor: pointer;
     .arcade-game-container{
         display: grid;
         grid-template-columns: repeat(3,1fr);
+        gap: 20px;
     }
     .arcade-pic{
         gap: 0;
@@ -262,6 +347,14 @@ cursor: pointer;
     .arcade-pic img{
         width: 40%;
         height: 80%;
+    }
+    .footer-text-des ul{
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+    }
+    .footer-des-2 ul{
+        display: grid;
+        grid-template-columns: repeat(2,90px);
     }
 }
 /* responsive section for tablet device */
