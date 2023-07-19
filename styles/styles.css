@@ -128,7 +128,7 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 background: #4EC5F7;
 }
 /* banner section ends here */
-/* section-1 starts here */
+/* section-1/online games starts here */
 .online-game-title{
     color: #0B0223;
 text-align: center;
@@ -157,10 +157,42 @@ text-align: center;
 .online-games-container img{
     width: 100%;
 }
-
-
-
-
+/* section-1/online games ends here */
+.play-games-container{
+    max-width: 1140px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.play-g-pic{
+    width: 50%;
+    
+}
+.play-g-pic img{
+    width: 70%;
+    height: 100%;
+}
+.play-g-text{
+    width: 50%;
+   
+}
+.play-g-text-title{    
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+padding-bottom: 20px;
+}
+.play-g-text-des{
+    color: #534C64;
+}
+.small-pic{
+    width: 50%;
+    height: 50%;
+   position: relative;
+    top: -120px;
+    left: 280px;
+}
 
 
 
@@ -173,7 +205,7 @@ text-align: center;
 /* responsive section for mobile device */
 
 @media screen and (max-width:576px) {
-    .nav-logo,.nav-container,.nav-items ul,.online-games-container{
+    .nav-logo,.nav-container,.nav-items ul,.online-games-container,.play-games-container{
         flex-direction: column;
     }
     .banner-container{
@@ -181,6 +213,11 @@ text-align: center;
     }
     .banner-title-2{
         font-size: 3rem;
+    }
+    .small-pic{
+        top: -50px;
+        left: 120px;
+        
     }
 }
 /* responsive section for tablet device */
@@ -194,6 +231,12 @@ text-align: center;
     }
     .online-games-container{
         flex-direction: column;
+    }
+    .play-games-container{
+        flex-direction: column;
+    }
+    .small-pic{
+        left: 210px;
     }
     
 }
