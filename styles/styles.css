@@ -79,7 +79,10 @@ background: rgba(11, 2, 35, 0.10);
   
 }
 .banner-text{
+
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
     width: 50%;
+    
    
    
 }
@@ -164,7 +167,7 @@ text-align: center;
 .play img {
     width: 50px;
     height: 50px;
-    color: black;
+    color: white;
     border: 2px solid red;
     position: relative;
     z-index: 100;
@@ -173,13 +176,13 @@ text-align: center;
     opacity: 0;
     
 }
-.play img:hover  {
-    opacity: 0.8;
+.play img:hover {
+    opacity: 0.9;
 
 }
 .play-text{
     width: 100px;
-    color: #F948B2;
+    color: white;
     position: relative;
     top: -280px;
     left: 90px;
@@ -187,8 +190,13 @@ text-align: center;
     opacity: 0;
 }
 .play p:hover{
-    opacity: 0.8;
+    opacity: 0.9;
 }
+.cards-extra:hover{
+    filter: brightness(50%);
+}
+
+
 /* its not perfect hover but i tried pls do check over picture */
 /* section-1/online games ends here */
 /* section-2-double-img starts here */
